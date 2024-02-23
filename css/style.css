@@ -64,6 +64,11 @@ input:focus, textarea:focus, button:focus {
     font-weight: 500;
 }
 
+ul, li{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+   }
+
 /* Círculo verde encima del título */
 .title::before{
     content: '';
@@ -100,8 +105,18 @@ input:focus, textarea:focus, button:focus {
     background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
+.infoContacto{
+    color: #092b8a;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
 .line-down{
     position: relative;
+}
+
+.line-up{
+    position: absolute;
 }
 
 .line-down::after{
@@ -395,7 +410,7 @@ main .profile{
     width: 40px;
     height: 40px;
     font-size: 26px;
-    color: #2eca7f;
+    color: #092b8a;
 }
 
 .resume-line{
@@ -436,11 +451,11 @@ main .profile{
 }
 
 .resume-line .date.active{
-    color: #2eca7f;
+    color: #092b8a;
 }
 
 .resume-line .date.active::before{
-    background: #2eca7f;
+    background:  #092b8a;
 }
 
 .resume-line .name{
@@ -489,7 +504,7 @@ main .profile{
 }
 
 .resume-skills > div section > div > div > div{
-    background: #2eca7f;
+    background: #092b8a;
     height: 4px;
 }
 
@@ -511,7 +526,7 @@ main .profile{
     width: 40px;
     height: 40px;
     font-size: 26px;
-    color: #2eca7f;
+    color: #092b8a;
 }
 
 
@@ -527,6 +542,7 @@ main .contact{
 
 .contact-information > div{
     width: 50%;
+    padding-bottom: 20px;
     text-align: left;
 }
 
