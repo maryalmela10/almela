@@ -16,7 +16,13 @@ a {
     color: #171717;
 }
 
+.iconoL{
+    color: #171717;
+}
 
+.iconoL:hover{
+    color: #6ed6f0!important;
+}
 
 .background.gradient {
     background: #50a3a2;
@@ -63,6 +69,7 @@ input:focus, textarea:focus, button:focus {
     line-height: 21px;
     font-weight: 500;
 }
+
 
 ul, li{
     margin:0 0 0 0;
@@ -178,7 +185,7 @@ header nav a .link{
 }
 
 header nav a:hover {
-    color: #2eca7f;
+    color: #6ed6f0;
 }
 
 main{
@@ -255,9 +262,25 @@ main .profile{
     font-size: 16px;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 1; 
+        justify-self: end;
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 2; 
+        justify-self: left
+    }
+
+
 .profile-social a:hover{
     text-decoration: none;
-    color: #2eca7f;
+    color: #6ed6f0;
 }
 
 .profile-buttons{
@@ -290,7 +313,7 @@ main .profile{
 }
 
 .profile-buttons a:hover{
-    color: #2eca7f;
+    color: #6ed6f0;
 }
 
 .profile-buttons a:first-child::before, .profile-buttons a:first-child::after{
@@ -560,7 +583,7 @@ main .contact{
 
 @media only screen and (min-width: 1040px) {
     .selected{
-        color: #2eca7f;
+        color: #6ed6f0;
     }
     .page{
         position: absolute;
