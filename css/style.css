@@ -5,7 +5,7 @@ body {
     border: none;
     font-family: 'Poppins';
     font-size: 14px;
-    color: #626262;
+    color: #000000;
     letter-spacing: 0em;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -120,10 +120,6 @@ ul, li{
 
 .line-down{
     position: relative;
-}
-
-.line-up{
-    position: absolute;
 }
 
 .line-down::after{
