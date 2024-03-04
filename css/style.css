@@ -181,7 +181,7 @@ header nav a .link{
 }
 
 header nav a:hover {
-    color: #6ed6f0;
+    color: #092b8a;
 }
 
 main{
@@ -579,7 +579,7 @@ main .contact{
 
 @media only screen and (min-width: 1040px) {
     .selected{
-        color: #6ed6f0;
+        color: #092b8a;
     }
     .page{
         position: absolute;
